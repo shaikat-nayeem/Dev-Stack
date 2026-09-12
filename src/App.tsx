@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import TechList from './components/TechList';
 import StackManager from './components/StackManager';
+import Footer from './components/Footer';
 import type { Technology } from './types/tech';
 
 export default function App() {
@@ -48,6 +49,7 @@ export default function App() {
           </div>
         </div>
       </main>
+      <Footer />
       <ToastContainer autoClose={2000} />
     </div>
   );
