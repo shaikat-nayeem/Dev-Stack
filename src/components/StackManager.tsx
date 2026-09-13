@@ -39,7 +39,7 @@ export default function StackManager({ selectedStack, onRemoveStack, onClearAll 
                 </div>
               </div>
               <button
-                onClick={() => onRemoveStack(tech.id)}
+                onClick={() => onRemoveStack(tech.id, tech.name)}
                 className="text-gray-400 hover:text-red-500 text-sm font-bold px-2 py-1 transition duration-150"
                 title="Remove"
               >
