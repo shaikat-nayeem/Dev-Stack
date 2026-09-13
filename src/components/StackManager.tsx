@@ -1,8 +1,9 @@
 import type { Technology } from '../types/tech';
 
+
 interface StackManagerProps {
   selectedStack: Technology[];
-  onRemoveStack: (id: string) => void;
+  onRemoveStack: (id: string, name: string) => void;
   onClearAll: () => void;
 }
 
